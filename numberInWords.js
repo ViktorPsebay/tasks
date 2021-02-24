@@ -2,7 +2,7 @@ function getRandomNum(max) {
   return Math.floor(1 + Math.random() * (max + 1));
 }
 
-function countScore(num) {
+function numberInWords(num) {
   let digits = {
     0: "",
     1: "один",
